@@ -1,0 +1,13 @@
+/* ResizableSection.css */
+.section {
+    width: 100%;
+    max-width: 1920px; /* Maximum width is 1920px */
+    min-width: 1280px; /* Minimum width is 1280px */
+    height: 100vh; /* 100% of the viewport height */
+    background-color: #f0f0f0; /* Example background color */
+  
+    /* Center the content horizontally and vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

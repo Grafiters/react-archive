@@ -1,0 +1,44 @@
+.box_container {
+    max-width: 1140px;
+    position: relative;
+    display: block;
+    box-shadow: 5px 5px 30px rgba(202, 199, 199, .3 );
+    background-color: white;
+    margin: 30px;
+    padding: 2.5rem;
+    border-radius: 10px;
+}
+
+.box_container .box-title{
+    font-size: 2.5rem;
+    font-weight: 400;
+    padding: 0 0 1.5rem 0;
+}
+
+.box_container .description{
+    font-size: 1.5rem;
+    padding: 0 0 1.5rem 0;
+}
+
+input{
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 100%;
+    display: block;
+    border: none;
+}
+
+.box_container .isvalid {
+    height: auto;
+    border-radius: .1rem;
+    outline: initial !important;
+    -webkit-box-shadow: initial !important;
+    box-shadow: none !important;
+    font-size: .8rem;
+    padding: .7rem .75rem .65rem .75rem;
+    line-height: 2;
+    border: 1px solid #d7d7d7;
+    background: #fff;
+}
