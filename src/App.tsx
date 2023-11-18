@@ -1,13 +1,15 @@
 import './App.css';
 import Navbar from './component/navbar';
-import SwaggerComponent from './page/swagger';
+import Blockchain from './page/blockchain/blockchain';
+import SendTransaction from './page/blockchain/send_transaction';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
 
-      <SwaggerComponent />
+      <Blockchain />
+      <SendTransaction />
     </div>
   );
 }
